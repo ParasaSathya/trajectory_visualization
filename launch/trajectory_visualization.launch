@@ -1,0 +1,12 @@
+<launch>
+  <node name="trajectory_reader" pkg="trajectory_visualization" type="trajectory_reader" output="screen">
+    <param name="trajectory_file" value="$(find trajectory_visualization)/data/trajectory.json" />
+    <param name="source_frame" value="odom" />
+    <param name="target_frame" value="odom" />
+    <param name="marker_lifetime" value="0.0" />
+    <param name="publish_rate" value="10.0" />
+  </node>
+  
+  <!-- Launch RViz with a configuration for trajectory visualization -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find trajectory_visualization)/rviz/trajectory_config.rviz" />
+</launch>

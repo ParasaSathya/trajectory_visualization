@@ -1,0 +1,10 @@
+<launch>
+  <node name="trajectory_saver" pkg="trajectory_visualization" type="trajectory_saver" output="screen">
+    <param name="odom_topic" value="/odom" />
+    <param name="base_frame" value="base_link" />
+    <param name="odom_frame" value="odom" />
+    <param name="marker_lifetime" value="0.0" />
+    <param name="publish_rate" value="10.0" />
+    <param name="point_distance_threshold" value="0.05" />
+  </node>
+</launch>
