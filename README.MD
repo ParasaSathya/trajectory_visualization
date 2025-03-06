@@ -182,10 +182,6 @@ trajectory_visualization/
 
 4. **File not found**: Ensure the specified file path is accessible and writable.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments
 
 - ROS community for providing the framework and tools
@@ -193,4 +189,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For questions or support, please contact [your-email@example.com](mailto:your-email@example.com).
+For questions or support, please contact [parasa.sathyasairam@gmail.com](mailto:parasa.sathyasairam@gmail.com).
